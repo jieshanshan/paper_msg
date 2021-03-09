@@ -58,7 +58,7 @@ def data_write_csv(file_path, datas):
 if __name__ == '__main__':
 
 
-    inpath = 'D:\PhD Groningen\Publications\TechDebt2021\project\\impala'
+    inpath = 'D:\PhD Groningen\Publications\TechDebt2021\project\\chromium'
     re_remove_str = '(\{code\}.*?\{code\})|(\{noformat\}.*?\{noformat\})'
     extract = MsgExtract(inpath_msg=inpath, re_remove=re_remove_str)
     msg=extract.msg_extract()
