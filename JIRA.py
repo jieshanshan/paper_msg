@@ -92,7 +92,7 @@ def data_write(file_path, datas):
 if __name__ == '__main__':
 
 
-    excel="D:\PhD Groningen\Publications\Survey2020\Example.xlsx"
+    excel="D:\PhD Groningen\Publications\TechDebt2021\exampleinput.xlsx"
     re_remove_str = '(\{code\}.*?\{code\})|(\{noformat\}.*?\{noformat\})'
     jira = JiraReader(url='https://issues.apache.org/jira', re_remove=re_remove_str)
 
@@ -128,4 +128,4 @@ if __name__ == '__main__':
     # dimen = np.array(list_info).shape
     # print(dimen)
     # print(len(list_info))
-    data_write("D:\PhD Groningen\Publications\Survey2020\Example2.xls", list_info)
+    data_write("D:\PhD Groningen\Publications\TechDebt2021\example2.xls", list_info)
